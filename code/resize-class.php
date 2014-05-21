@@ -22,8 +22,6 @@ Class resize
 		// *** Get extension
 		$extension = strtolower(strrchr($file, '.'));
 	 
-	 print_r($file);
-	 
 		switch($extension)
 		{
 			case '.jpg':
